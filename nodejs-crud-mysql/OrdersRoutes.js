@@ -34,7 +34,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// Update a orders
+
 router.put('/:id', (req, res) => {
     const orderId = req.params.id;
     const orderData = req.body;
